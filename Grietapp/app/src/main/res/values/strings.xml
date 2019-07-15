@@ -6,4 +6,74 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="gokarajubio">
+Gokaraju Rangaraju Institute of Engineering and Technology (GRIET) is established in 1997 by Dr. G Gangaraju as a self-financed institute under the aegis of Gokaraju Rangaraju Educational Society. GRIET is approved by AICTE, New Delhi, permanently affiliated to and autonomous under JNTUH, Hyderabad. GRIET is committed to quality education and is known for its innovative teaching practices    </string>
+    <string name="gokarajvision">
+
+To be among the best of the institutions for engineers and technologists with attitudes, skills and knowledge and to become an epicentre of creative solutions.
+    </string>
+    <string name="gokarajmission">
+        To achieve and impart quality education with an emphasis on practical skills and social relevance.
+    </string>
+    <string name="gokarajquality">
+        To provide an integrated learning environment to enable students to grow towards their full potential and meet the high expectations of the Industry and the Society.
+    </string>
+    <string name="gokarajstrategies">
+        To translate our vision into action and accomplish our mission, we strive to provide state-of-art infrastructure.
+recruit, motivate and develop high caliber multi-speciality faculty,continuously review, innovate and experiment teaching methodologies and learning resources.
+focus on research, training and consultancy through an integrated institute-industry symbiosis.
+    </string>
+    <string name="gokarajacademics">
+        The departments of the GRIET are responsible for the academic activities which include Teaching, Research and Industrial Consultancy. The courses of study are organized on semester basis. The medium of instruction is English.\n\n
+
+Students are evaluated on a continuous basis each academic year which consists of two semesters with each semester providing a minimum of seventeen weeks of instructions. Evaluation comprises of Continuous Internal Evaluation(CIE) ans Semester End Examination (SEE). The rigours of academic study at each level are balanced with a number of other related activities which include co-curricular activities.\n\n
+
+Special lectures on varied topic of academic relevance are held under the Extra Mural Lecture series. A number of conferences, symposia and workshops are organized by the faculty which attract participation from scholars from all corners of India and abroad Guest lectures and industrial visits complement classroom interactions.\n\n
+
+The academic atmosphere at the Institute is a rare blend of modern day technical skills and the traditional emphasis on imparting knowledge. All the academic activities at institute are monitored by Dean Academic Affairs and can be viewed through the academic calendar, time tables of individual programmes, examination schedules and yearly college diary.\n\n
+    </string>
+
+    <string name="gokarajadmissionsbtech">
+The candidates who want to seek admission in GRIET have to qualify in the EAMCET ( Engineering ,Agricultural and Medical Common Entrance Test ) examination conducted by Govt. of Telangana . To be eligible for appearing in the EAMCET examination, the student should have passed the 10 + 2 with Maths,Physics and Chemistry as their main stream. The candidates should attend the counselling for admission into the Engineering colleges conducted by the Convenor. Based on the rank obtained in EAMCET, candidates can opt for GRIET as per the availability of the college and branch at the time of counselling.
+    </string>
+    <string name="gokarajadmissionsmtech">
+    Admission will be made through GATE. When GATE Candidates are not available, admission will be given to PGECET qualified candidates on merit basis. Admission for Sponsored category will be made based on merit. Preference will be given to GATE qualified candidates
+    </string>
+    <string name="gokarajedc">
+        To develop an ecosystem conductive for students to explore new avenues through innovation and develop products and services which are useful to the society.
+    </string>
+    <string name="gokarajedcrules">
+        1.Increase the number of start-ups\n
+        2.Support to start-ups through training, Incubation space, mentoring and networking\n
+        3.Give training and knowledge on doing business to interested students.\n
+        4.Increase innovative spirit of students by conducting competitions.\n
+        5.Increase exposure of students by sending them to attend competitions outside.\n
+        6.Apply for Incubation and start-up funding\n
+        7.Develop In-house patent filing unit\n
+    </string>
+    <string name="gokarajalumni">
+        GRIET has groomed many young men and women to be the world-class engineers since its establishment in the year 1997. The renowned alumni of GRIET are now spread across the world, contributing to the society as Engineers, Teachers, Scientists and Entrepreneurs.\n\n
+
+The Alumni is making GRIET proud of its hard work in shaping these talented brains by winning laurels at national and international levels. SRKREC Alumni is proud to say that our alumni are at the helm of several organizations globally. Today GRIET alumni have a significant presence in USA, Europe, Middle East and Asia.\n\n
+
+
+Our college has good alumni base who are currently working with many reputed companies and they are the brand ambassadors of our college. The institution is in touch with them through Alumni association. Every year institute organizes alumni meet and feedback is collected from them for the improvement of curriculum.\n\n
+    </string>
+    <string name="gokarajgreencampus">
+        ‘Green campus’ is a concept which stands for the efforts to establish environmentally sustainable practices in any institution. Its goal is to diminish the impact of ecological footprints by implementing the principles of sustainability at every level of institutional functioning.\n\n
+
+GRIET’s environment makes an aesthetic impression on those who step into the campus while simultaneously presenting the pedagogical/academicals mission. Consequently, students along with faculty learn and live on and around campus to gain a new dimension to their learning and teaching experience and an increased appreciation of the natural world.\n\n
+
+GRIET has undertaken a “Green Campus” initiative seeking to take a holistic approach to campus sustainability. Its main focus is on campus flora fauna, solid waste management, alternative energy resources, etc.\n\n
+
+    </string>
+    <string name="gokarajgreen1">
+        * Flora and Fauna: It’s the occurring of plant life in particular region or period. The corresponding term for animal life is referred to as Fauna.
+    </string>
+    <string name="gokarajgreen2">
+        * Solid Waste Management: It is the process of collecting and treating of solid waste which offers solutions for recycling items that do not belong to garbage or trash but can be changed in a vulnerable resource.
+    </string>
+    <string name="gokarajgreen3">
+        * Alternate Energy Resource : The energy derived from sources that do not use up natural resources or harm the environment such as solar energy, wind energy, tidal energy etc. are called as Alternative Energy Resource.
+    </string>
 </resources>

@@ -1,5 +1,6 @@
 package com.example.mahesh.grietapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -12,6 +13,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+
+import com.daimajia.slider.library.Animations.BaseAnimationInterface;
+import com.daimajia.slider.library.Animations.DescriptionAnimation;
+import com.daimajia.slider.library.SliderLayout;
+import com.daimajia.slider.library.SliderTypes.BaseSliderView;
+import com.daimajia.slider.library.SliderTypes.TextSliderView;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -23,14 +33,7 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -40,6 +43,51 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        //slider layout code
+        ArrayList<Integer>ar=new ArrayList<Integer>();
+        ar.add(R.drawable.griet3);
+        ar.add(R.drawable.griet5);
+        ar.add(R.drawable.griet6);
+        ar.add(R.drawable.griet7);
+
+        SliderLayout sliderLayout=(SliderLayout)findViewById(R.id.sliderlayout);
+        for(Integer i:ar){
+            TextSliderView t=new TextSliderView(this);
+            t.image(i).setScaleType(BaseSliderView.ScaleType.Fit);
+            sliderLayout.addSlider(t);
+
+        }
+        sliderLayout.setCustomAnimation(new DescriptionAnimation());
+        sliderLayout.setDuration(2000);
+
+        //edc button
+        Button edc=(Button)findViewById(R.id.edc);
+        edc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(MainActivity.this,EDC.class);
+                startActivity(i);
+            }
+        });
+        //alumni button
+        Button alumni=(Button)findViewById(R.id.alumni);
+        alumni.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(MainActivity.this,ALumni.class);
+                startActivity(i);
+            }
+        });
+        //green campus
+        Button green=(Button)findViewById(R.id.green_campus);
+        green.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(MainActivity.this,GreenCampus.class);
+                startActivity(i);
+            }
+        });
     }
 
     @Override
@@ -67,9 +115,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
+
 
         return super.onOptionsItemSelected(item);
     }
@@ -80,22 +126,25 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.home) {
 
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
+            Intent i=new Intent(this,MainActivity.class);
+            startActivity(i);
+        } else if (id == R.id.aboutus) {
+            Intent i=new Intent(this,aboutus.class);
+            startActivity(i);
+        } else if (id == R.id.academics) {
+            Intent i=new Intent(this,academics.class);
+            startActivity(i);
+        } else if (id == R.id.admissions) {
+            Intent i=new Intent(this,Admissions.class);
+            startActivity(i);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+
 }
